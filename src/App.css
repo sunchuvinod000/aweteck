@@ -57,5 +57,6 @@ img {
   width: 250px;
 }
 .item {
+  padding-right: 30px;
   margin-left: 0;
 }
