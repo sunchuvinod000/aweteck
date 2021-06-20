@@ -1,0 +1,61 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  font-weight: 800;
+}
+.buttons {
+  display: flex;
+  justify-items: end;
+  padding-left: 200px;
+
+  margin-top: 80px;
+}
+.button {
+  height: 50px;
+  width: 50px;
+  padding: 3px;
+  font-size: 25px;
+  background: rgb(162, 159, 159);
+  color: white;
+  border-radius: 50%;
+  margin-left: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.list {
+  list-style-type: none;
+  margin-right: 30px;
+}
+.left {
+  border-right: 10px;
+}
+
+.list > li {
+  height: 40px;
+  padding: 5px;
+  margin: 25px;
+  font-size: large;
+
+  text-align: center;
+}
+li:hover {
+  background: tomato;
+  border-radius: 15px;
+  color: white;
+}
+.carasoul {
+  display: flex;
+  height: 300px;
+  width: 350px;
+  overflow: hidden;
+}
+img {
+  height: 300px;
+  width: 250px;
+}
+.item {
+  margin-left: 0;
+}
